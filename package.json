@@ -1,0 +1,19 @@
+{
+  "name": "csv_image_downloads",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JRIM-Group/Download-and-edit-the-image.git",
+  "author": "Jecé Xavier <jece@alunos.utfpr.edu.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/News.js"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^4.3.1",
+    "@fast-csv/parse": "^4.3.1",
+    "fast-csv": "^4.3.1",
+    "gm": "^1.23.1",
+    "image-downloader": "^3.5.0"
+  },
+  "devDependencies": {}
+}
