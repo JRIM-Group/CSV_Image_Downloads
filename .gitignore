@@ -1,3 +1,21 @@
+# Files Statiscs
+
+tmp/*
+
+!tmp/image
+!tmp/CSVs
+
+tmp/image/*
+!tmp/image/exemple
+tmp/image/exemple/*
+tmp/image/exemple/converted/*
+!tmp/image/exemple/converted/.gitKeep
+
+tmp/CSVs/*
+!tmp/CSVs/exemple.csv
+
+
+
 # Logs
 logs
 *.log
