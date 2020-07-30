@@ -32,7 +32,7 @@ async function download(date = getDateFormatted()){
       const imageName = await createImageName(n.name, n.prefix, 6);
       
       try {
-        await downloadAndSaveImage(url, imageName, date);
+        await downloadAndSaveImage(url, imageName, date ? date : getDateFormatted(), 800, 450);
       } catch (error) {
         console.log(' --- ');
         console.log(`[imageLink]: ${url}`);
@@ -59,7 +59,7 @@ function getDateFormatted(){
 
 function main(){
 
-  rl.question("Digite o nome do arquivo que estão as notícias: ", async function(input) {
+  rl.question("Digite o nome do arquivo CSV: ", async function(input) {
     file = input;
     await download(input);
   }); 

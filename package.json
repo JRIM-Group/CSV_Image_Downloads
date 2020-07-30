@@ -6,7 +6,7 @@
   "author": "Jecé Xavier <jece@alunos.utfpr.edu.br>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/News.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "@fast-csv/format": "^4.3.1",
