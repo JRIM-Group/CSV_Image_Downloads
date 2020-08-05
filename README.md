@@ -22,15 +22,15 @@
 
 Executar na pasta de projeto: `yarn` ou `npm install`
 
-Obs: O projeto foi inicialmente criado usando yarn.
-
 ### Instruções para o uso
 
 #### Iniciar Script
 
 Executar na pasta de projeto: `yarn start` ou `npm start`.
 
-Entrar com o nome do arquivos de leitura (.csv). *Nome padrão é mês_dia da execução*
+Entrar com o nome do arquivos de leitura (.csv). 
+
+*Nome padrão é mês_dia da execução (Exemplo: 07_30)*
 
 #### Estrutura de pastas
 
@@ -47,6 +47,7 @@ prefix | name | imageLink
 Exemplo | Minha imagem de exemplo | https://avatars0.githubusercontent.com/u/67236922?s=200&v=4
 
 As únicas "colunas" obrigatórias para estar no CSV são:  *prefix*; *name*; *imageLink*
+
 **OBS:** O CSV preciso estar deparado por vírgula.
 
-Dentro da pasta **tmp/CSVs** tem um arquivo de exemplo **exemple.csv**
+Dentro da pasta **tmp/CSVs** tem um arquivo de exemplo **exemple.csv** como a mesma esctrutura da tabela apresentada.
