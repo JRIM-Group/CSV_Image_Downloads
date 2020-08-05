@@ -8,6 +8,8 @@ tmp/*
 tmp/image/*
 !tmp/image/exemple
 tmp/image/exemple/*
+
+!tmp/image/exemple/converted
 tmp/image/exemple/converted/*
 !tmp/image/exemple/converted/.gitKeep
 
